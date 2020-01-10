@@ -1,11 +1,11 @@
 
-.bail-button{
+/*.bail-button{
   float:right;
   margin-top: 200px;
   display: block;
   width: 10%;
   height: 40px;
-}
+}*/
 
 /*
 VERSION WITH GRID
@@ -67,6 +67,7 @@ VERSION WITH GRID
 
 
 .game-container {
+  margin-top: 56px !important;
   height: 80vh;
   width: 95vw;
   align-items: center;
@@ -74,7 +75,7 @@ VERSION WITH GRID
 }
 
 .grid {
-  height: 100%;
+  height: 90%;
   display: grid;
   grid-template-columns: 3fr 2fr;
   grid-template-rows: auto 1fr;
@@ -88,8 +89,8 @@ VERSION WITH GRID
 }
 
 .two {
-  background: green;
   grid-area: two;
+  height: 300px;
 }
 
 .three {

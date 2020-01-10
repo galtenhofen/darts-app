@@ -41,5 +41,5 @@ $primary: color("blue");
 // @import "node_modules/bootstrap/scss/jumbotron";
 
 html{ height: 100%; }
-body{ min-height: 100%; }
+body{ min-height: 100%; overflow: hidden;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
